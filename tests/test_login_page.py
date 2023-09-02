@@ -27,7 +27,7 @@ class TestPositiveScenarios:
 
         submit_button_locator = driver.find_element(By.XPATH, "//button[@id='submit']")
         submit_button_locator.click()
-        time.sleep(2)
+
 
         # Verify new page URL contains practicetestautomation.com/logged-in-successfully/
         actual_url = driver.current_url
